@@ -127,18 +127,44 @@ class QuizScreen extends StatelessWidget {
                           placeholder: (_, __) => Image.network(
                             question.thumbnailImage,
                             scale: 0.5,
+                            errorBuilder: (context, error, stackTrace) =>
+                                const Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Center(
+                                  child: Icon(
+                                    Icons.error,
+                                    size: 30,
+                                    color: Colors.red,
+                                  ),
+                                ),
+                                Text(
+                                  'فشل تحميل الصورة',
+                                  style: TextStyle(
+                                    fontSize: 17,
+                                  ),
+                                ),
+                              ],
+                            ),
                           ),
                           imageUrl: question.flagImage,
-                          errorWidget: (context, error, stackTrace) => Column(
+                          errorWidget: (context, error, stackTrace) =>
+                              const Column(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
-                              const Center(
+                              Center(
                                 child: Icon(
                                   Icons.error,
+                                  size: 30,
                                   color: Colors.red,
                                 ),
                               ),
-                              Text(error.toString()),
+                              Text(
+                                'فشل تحميل الصورة',
+                                style: TextStyle(
+                                  fontSize: 17,
+                                ),
+                              ),
                             ],
                           ),
                           fit: BoxFit.cover,
