@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:football_quiz/utils/constants.dart';
 
 class AppThemes {
@@ -12,6 +13,9 @@ class AppThemes {
       ),
       appBarTheme: const AppBarTheme(
         centerTitle: true,
+        systemOverlayStyle: SystemUiOverlayStyle(
+          statusBarBrightness: Brightness.light,
+        ),
       ),
       floatingActionButtonTheme: const FloatingActionButtonThemeData(
         backgroundColor: appPrimaryColor,

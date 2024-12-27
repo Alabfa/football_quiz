@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:bounce/bounce.dart';
 import 'package:flutter/material.dart';
 import 'package:football_quiz/core/controllers/home_screen_controller.dart';
@@ -23,60 +25,63 @@ class HomeScreen extends StatelessWidget {
           tooltip: 'Change language',
         ),
       ),
-      body: Column(
-        children: [
-          Expanded(
-            child: GridView.count(
-              shrinkWrap: true,
-              crossAxisCount: 2,
-              mainAxisSpacing: 10,
-              crossAxisSpacing: 10,
-              childAspectRatio: 0.8,
-              padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 10),
+      body: SafeArea(
+        child: Column(
+          children: [
+            Expanded(
+              child: GridView.count(
+                shrinkWrap: true,
+                crossAxisCount: 2,
+                mainAxisSpacing: 10,
+                crossAxisSpacing: 10,
+                childAspectRatio: 0.8,
+                padding:
+                    const EdgeInsets.symmetric(vertical: 10, horizontal: 10),
+                children: [
+                  Bounce(
+                    onTap: () => Get.to(
+                      () => QuizScreen(),
+                      arguments: 'Premier League',
+                    ),
+                    child: buildCard(
+                      context,
+                      AppAssets.premierLeagueLogo,
+                      'Premier League',
+                      const Color(0xff3d195b),
+                    ),
+                  ),
+                  Bounce(
+                    onTap: () => Get.to(
+                      () => QuizScreen(),
+                      arguments: 'LaLiga',
+                    ),
+                    child: buildCard(
+                      context,
+                      AppAssets.laLigaLogo,
+                      'LaLiga',
+                      const Color(0xffff4b44),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Bounce(
-                  onTap: () => Get.to(
-                    () => QuizScreen(),
-                    arguments: 'Premier League',
+                Text('${AppLocalizations.of(context)!.developed_by}: '),
+                InkWell(
+                  onTap: homeScreenController.onDevNamePressed,
+                  child: const Text(
+                    '@Alabfa',
+                    textDirection: TextDirection.ltr,
+                    style: TextStyle(fontWeight: FontWeight.bold),
                   ),
-                  child: buildCard(
-                    context,
-                    AppAssets.premierLeagueLogo,
-                    'Premier League',
-                    const Color(0xff3d195b),
-                  ),
-                ),
-                Bounce(
-                  onTap: () => Get.to(
-                    () => QuizScreen(),
-                    arguments: 'LaLiga',
-                  ),
-                  child: buildCard(
-                    context,
-                    AppAssets.laLigaLogo,
-                    'LaLiga',
-                    const Color(0xffff4b44),
-                  ),
-                ),
+                )
               ],
             ),
-          ),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Text('${AppLocalizations.of(context)!.developed_by}: '),
-              InkWell(
-                onTap: homeScreenController.onDevNamePressed,
-                child: const Text(
-                  '@Alabfa',
-                  textDirection: TextDirection.ltr,
-                  style: TextStyle(fontWeight: FontWeight.bold),
-                ),
-              )
-            ],
-          ),
-          const SizedBox(height: 10),
-        ],
+            if (Platform.isAndroid) const SizedBox(height: 10),
+          ],
+        ),
       ),
     );
   }

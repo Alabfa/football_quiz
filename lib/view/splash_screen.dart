@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:football_quiz/core/controllers/splash_screen_controller.dart';
 import 'package:football_quiz/utils/assets.dart';
@@ -13,11 +15,11 @@ class SplashScreen extends StatelessWidget {
     return Scaffold(
       body: Stack(
         children: [
-          const Positioned(
-            bottom: 30,
+          Positioned(
+            bottom: Platform.isIOS ? 50 : 30,
             right: 0,
             left: 0,
-            child: Center(
+            child: const Center(
               child: CircularProgressIndicator.adaptive(),
             ),
           ),
