@@ -38,136 +38,138 @@ class ResultScreen extends StatelessWidget {
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 24.0),
         child: SafeArea(
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: [
-              const SizedBox(height: 40),
-              Container(
-                width: 150,
-                height: 150,
-                decoration: BoxDecoration(
-                  shape: BoxShape.circle,
-                  gradient: LinearGradient(
-                    colors: isPass
-                        ? [const Color(0xFF00C006), const Color(0xFF007B06)]
-                        : [const Color(0xFFEA3700), const Color(0xFF8F2201)],
-                    begin: Alignment.topLeft,
-                    end: Alignment.bottomRight,
-                  ),
-                  boxShadow: const [
-                    BoxShadow(
-                      color: Colors.black26,
-                      blurRadius: 10,
-                      offset: Offset(0, 6),
+          child: SingleChildScrollView(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                const SizedBox(height: 40),
+                Container(
+                  width: 150,
+                  height: 150,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    gradient: LinearGradient(
+                      colors: isPass
+                          ? [const Color(0xFF00C006), const Color(0xFF007B06)]
+                          : [const Color(0xFFEA3700), const Color(0xFF8F2201)],
+                      begin: Alignment.topLeft,
+                      end: Alignment.bottomRight,
                     ),
-                  ],
-                ),
-                child: Center(
-                  child: Icon(
-                    isPass ? Icons.emoji_events : Icons.close,
-                    size: 100,
-                    color: Colors.white,
-                  ),
-                ),
-              ),
-              const SizedBox(height: 40),
-              Text(
-                questionController.getResponseBasedOnScore(
-                  scorePercentage.toInt(),
-                  context,
-                ),
-                style: const TextStyle(
-                  fontSize: 24,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.black87,
-                ),
-                textAlign: TextAlign.center,
-              ),
-              const SizedBox(height: 16),
-              Text(
-                AppLocalizations.of(context)!.result_score(
-                  questionController.correctAnswers.value,
-                  questionController.questions.length,
-                ),
-                style: TextStyle(
-                  color: Colors.grey[700],
-                  fontSize: 18,
-                ),
-                textAlign: TextAlign.center,
-              ),
-              const SizedBox(height: 40),
-              Container(
-                padding: const EdgeInsets.all(20),
-                decoration: BoxDecoration(
-                  color: isPass
-                      ? Colors.greenAccent.withValues(alpha: 0.1)
-                      : Colors.redAccent.withValues(alpha: 0.1),
-                  borderRadius: BorderRadius.circular(16),
-                ),
-                child: Column(
-                  children: [
-                    Text(
-                      AppLocalizations.of(context)!.score,
-                      style: TextStyle(
-                        fontSize: 16,
-                        fontWeight: FontWeight.bold,
-                        color: isPass ? Colors.green : Colors.red,
+                    boxShadow: const [
+                      BoxShadow(
+                        color: Colors.black26,
+                        blurRadius: 10,
+                        offset: Offset(0, 6),
                       ),
-                    ),
-                    const SizedBox(height: 10),
-                    Text(
-                      '${scorePercentage.toStringAsFixed(1)}%',
-                      style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        color: isPass ? Colors.green : Colors.red,
-                        fontSize: 48,
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-              const Spacer(),
-              SizedBox(
-                width: double.infinity,
-                child: ElevatedButton(
-                  onPressed: () {
-                    questionController.resetQuiz();
-                    Get.off(() => QuizScreen(), arguments: league);
-                  },
-                  style: ElevatedButton.styleFrom(
-                    padding: const EdgeInsets.symmetric(
-                        vertical: 16, horizontal: 32),
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(12),
-                    ),
-                    backgroundColor: appPrimaryColor,
+                    ],
                   ),
-                  child: Text(
-                    AppLocalizations.of(context)!.retry_quiz,
-                    style: const TextStyle(
-                      fontSize: 18,
-                      fontWeight: FontWeight.bold,
+                  child: Center(
+                    child: Icon(
+                      isPass ? Icons.emoji_events : Icons.close,
+                      size: 100,
                       color: Colors.white,
                     ),
                   ),
                 ),
-              ),
-              const SizedBox(height: 5),
-              TextButton(
-                onPressed: () {
-                  Get.off(() => HomeScreen());
-                },
-                child: Text(
-                  AppLocalizations.of(context)!.exit_to_home,
+                const SizedBox(height: 40),
+                Text(
+                  questionController.getResponseBasedOnScore(
+                    scorePercentage.toInt(),
+                    context,
+                  ),
                   style: const TextStyle(
-                    fontSize: 16,
+                    fontSize: 24,
                     fontWeight: FontWeight.bold,
-                    color: Colors.black54,
+                    color: Colors.black87,
+                  ),
+                  textAlign: TextAlign.center,
+                ),
+                const SizedBox(height: 16),
+                Text(
+                  AppLocalizations.of(context)!.result_score(
+                    questionController.correctAnswers.value,
+                    questionController.questions.length,
+                  ),
+                  style: TextStyle(
+                    color: Colors.grey[700],
+                    fontSize: 18,
+                  ),
+                  textAlign: TextAlign.center,
+                ),
+                const SizedBox(height: 40),
+                Container(
+                  padding: const EdgeInsets.all(20),
+                  decoration: BoxDecoration(
+                    color: isPass
+                        ? Colors.greenAccent.withValues(alpha: 0.1)
+                        : Colors.redAccent.withValues(alpha: 0.1),
+                    borderRadius: BorderRadius.circular(16),
+                  ),
+                  child: Column(
+                    children: [
+                      Text(
+                        AppLocalizations.of(context)!.score,
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                          color: isPass ? Colors.green : Colors.red,
+                        ),
+                      ),
+                      const SizedBox(height: 10),
+                      Text(
+                        '${scorePercentage.toStringAsFixed(1)}%',
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          color: isPass ? Colors.green : Colors.red,
+                          fontSize: 48,
+                        ),
+                      ),
+                    ],
                   ),
                 ),
-              ),
-              if (Platform.isAndroid) const SizedBox(height: 20),
-            ],
+                const SizedBox(height: 75),
+                SizedBox(
+                  width: double.infinity,
+                  child: ElevatedButton(
+                    onPressed: () {
+                      questionController.resetQuiz();
+                      Get.off(() => QuizScreen(), arguments: league);
+                    },
+                    style: ElevatedButton.styleFrom(
+                      padding: const EdgeInsets.symmetric(
+                          vertical: 16, horizontal: 32),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(12),
+                      ),
+                      backgroundColor: appPrimaryColor,
+                    ),
+                    child: Text(
+                      AppLocalizations.of(context)!.retry_quiz,
+                      style: const TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white,
+                      ),
+                    ),
+                  ),
+                ),
+                const SizedBox(height: 5),
+                TextButton(
+                  onPressed: () {
+                    Get.off(() => HomeScreen());
+                  },
+                  child: Text(
+                    AppLocalizations.of(context)!.exit_to_home,
+                    style: const TextStyle(
+                      fontSize: 16,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.black54,
+                    ),
+                  ),
+                ),
+                if (Platform.isAndroid) const SizedBox(height: 20),
+              ],
+            ),
           ),
         ),
       ),
