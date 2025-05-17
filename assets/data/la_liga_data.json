@@ -3,220 +3,220 @@
         "flagImage": "https://upload.wikimedia.org/wikipedia/en/thumb/9/98/Club_Athletic_Bilbao_logo.svg/800px-Club_Athletic_Bilbao_logo.svg.png",
         "thumbnailImage": "https://upload.wikimedia.org/wikipedia/en/thumb/9/98/Club_Athletic_Bilbao_logo.svg/170px-Club_Athletic_Bilbao_logo.svg.png",
         "choices": [
-            "la_liga_athletic_bilbao",
-            "la_liga_atletico_madrid",
-            "la_liga_osasuna",
-            "la_liga_leganes"
+            "athletic_bilbao",
+            "atletico_madrid",
+            "osasuna",
+            "leganes"
         ],
-        "correctAnswer": "la_liga_athletic_bilbao"
+        "correctAnswer": "athletic_bilbao"
     },
     {
         "flagImage": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Atletico_Madrid_Logo_2024.svg/800px-Atletico_Madrid_Logo_2024.svg.png",
         "thumbnailImage": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Atletico_Madrid_Logo_2024.svg/155px-Atletico_Madrid_Logo_2024.svg.png",
         "choices": [
-            "la_liga_atletico_madrid",
-            "la_liga_osasuna",
-            "la_liga_leganes",
-            "la_liga_deportivo_alaves"
+            "atletico_madrid",
+            "osasuna",
+            "leganes",
+            "deportivo_alaves"
         ],
-        "correctAnswer": "la_liga_atletico_madrid"
+        "correctAnswer": "atletico_madrid"
     },
     {
         "flagImage": "https://upload.wikimedia.org/wikipedia/en/thumb/3/38/CA_Osasuna_2024_crest.svg/800px-CA_Osasuna_2024_crest.svg.png",
         "thumbnailImage": "https://upload.wikimedia.org/wikipedia/en/thumb/3/38/CA_Osasuna_2024_crest.svg/155px-CA_Osasuna_2024_crest.svg.png",
         "choices": [
-            "la_liga_osasuna",
-            "la_liga_leganes",
-            "la_liga_deportivo_alaves",
-            "la_liga_barcelona"
+            "osasuna",
+            "leganes",
+            "deportivo_alaves",
+            "barcelona"
         ],
-        "correctAnswer": "la_liga_osasuna"
+        "correctAnswer": "osasuna"
     },
     {
         "flagImage": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/Club_Deportivo_Legan%C3%A9s_logo.svg/1024px-Club_Deportivo_Legan%C3%A9s_logo.svg.png",
         "thumbnailImage": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/Club_Deportivo_Legan%C3%A9s_logo.svg/180px-Club_Deportivo_Legan%C3%A9s_logo.svg.png",
         "choices": [
-            "la_liga_leganes",
-            "la_liga_deportivo_alaves",
-            "la_liga_barcelona",
-            "la_liga_getafe"
+            "leganes",
+            "deportivo_alaves",
+            "barcelona",
+            "getafe"
         ],
-        "correctAnswer": "la_liga_leganes"
+        "correctAnswer": "leganes"
     },
     {
         "flagImage": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/Deportivo_Alaves_logo_%282020%29.svg/1024px-Deportivo_Alaves_logo_%282020%29.svg.png",
         "thumbnailImage": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/Deportivo_Alaves_logo_%282020%29.svg/180px-Deportivo_Alaves_logo_%282020%29.svg.png",
         "choices": [
-            "la_liga_deportivo_alaves",
-            "la_liga_barcelona",
-            "la_liga_getafe",
-            "la_liga_girona"
+            "deportivo_alaves",
+            "barcelona",
+            "getafe",
+            "girona"
         ],
-        "correctAnswer": "la_liga_deportivo_alaves"
+        "correctAnswer": "deportivo_alaves"
     },
     {
         "flagImage": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/1024px-FC_Barcelona_%28crest%29.svg.png",
         "thumbnailImage": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/200px-FC_Barcelona_%28crest%29.svg.png",
         "choices": [
-            "la_liga_barcelona",
-            "la_liga_getafe",
-            "la_liga_girona",
-            "la_liga_rayo_vallecano"
+            "barcelona",
+            "getafe",
+            "girona",
+            "rayo_vallecano"
         ],
-        "correctAnswer": "la_liga_barcelona"
+        "correctAnswer": "barcelona"
     },
     {
         "flagImage": "https://upload.wikimedia.org/wikipedia/en/thumb/4/46/Getafe_logo.svg/1024px-Getafe_logo.svg.png",
         "thumbnailImage": "https://upload.wikimedia.org/wikipedia/en/thumb/4/46/Getafe_logo.svg/180px-Getafe_logo.svg.png",
         "choices": [
-            "la_liga_getafe",
-            "la_liga_girona",
-            "la_liga_rayo_vallecano",
-            "la_liga_celta_vigo"
+            "getafe",
+            "girona",
+            "rayo_vallecano",
+            "celta_vigo"
         ],
-        "correctAnswer": "la_liga_getafe"
+        "correctAnswer": "getafe"
     },
     {
         "flagImage": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/Girona_FC_Logo.svg/1024px-Girona_FC_Logo.svg.png",
         "thumbnailImage": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/Girona_FC_Logo.svg/180px-Girona_FC_Logo.svg.png",
         "choices": [
-            "la_liga_girona",
-            "la_liga_rayo_vallecano",
-            "la_liga_celta_vigo",
-            "la_liga_espanyol"
+            "girona",
+            "rayo_vallecano",
+            "celta_vigo",
+            "espanyol"
         ],
-        "correctAnswer": "la_liga_girona"
+        "correctAnswer": "girona"
     },
     {
         "flagImage": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/Rayo_Vallecano_logo.svg/1024px-Rayo_Vallecano_logo.svg.png",
         "thumbnailImage": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/Rayo_Vallecano_logo.svg/190px-Rayo_Vallecano_logo.svg.png",
         "choices": [
-            "la_liga_rayo_vallecano",
-            "la_liga_celta_vigo",
-            "la_liga_espanyol",
-            "la_liga_mallorca"
+            "rayo_vallecano",
+            "celta_vigo",
+            "espanyol",
+            "mallorca"
         ],
-        "correctAnswer": "la_liga_rayo_vallecano"
+        "correctAnswer": "rayo_vallecano"
     },
     {
         "flagImage": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/RC_Celta_de_Vigo_logo.svg/800px-RC_Celta_de_Vigo_logo.svg.png",
         "thumbnailImage": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/RC_Celta_de_Vigo_logo.svg/130px-RC_Celta_de_Vigo_logo.svg.png",
         "choices": [
-            "la_liga_celta_vigo",
-            "la_liga_espanyol",
-            "la_liga_mallorca",
-            "la_liga_real_betis"
+            "celta_vigo",
+            "espanyol",
+            "mallorca",
+            "real_betis"
         ],
-        "correctAnswer": "la_liga_celta_vigo"
+        "correctAnswer": "celta_vigo"
     },
     {
         "flagImage": "https://upload.wikimedia.org/wikipedia/en/thumb/9/92/RCD_Espanyol_crest.svg/800px-RCD_Espanyol_crest.svg.png",
         "thumbnailImage": "https://upload.wikimedia.org/wikipedia/en/thumb/9/92/RCD_Espanyol_crest.svg/155px-RCD_Espanyol_crest.svg.png",
         "choices": [
-            "la_liga_espanyol",
-            "la_liga_mallorca",
-            "la_liga_real_betis",
-            "la_liga_real_madrid"
+            "espanyol",
+            "mallorca",
+            "real_betis",
+            "real_madrid"
         ],
-        "correctAnswer": "la_liga_espanyol"
+        "correctAnswer": "espanyol"
     },
     {
         "flagImage": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/Rcd_mallorca.svg/800px-Rcd_mallorca.svg.png",
         "thumbnailImage": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/Rcd_mallorca.svg/160px-Rcd_mallorca.svg.png",
         "choices": [
-            "la_liga_mallorca",
-            "la_liga_real_betis",
-            "la_liga_real_madrid",
-            "la_liga_real_sociedad"
+            "mallorca",
+            "real_betis",
+            "real_madrid",
+            "real_sociedad"
         ],
-        "correctAnswer": "la_liga_mallorca"
+        "correctAnswer": "mallorca"
     },
     {
         "flagImage": "https://upload.wikimedia.org/wikipedia/en/thumb/1/13/Real_betis_logo.svg/1280px-Real_betis_logo.svg.png",
         "thumbnailImage": "https://upload.wikimedia.org/wikipedia/en/thumb/1/13/Real_betis_logo.svg/220px-Real_betis_logo.svg.png",
         "choices": [
-            "la_liga_real_betis",
-            "la_liga_real_madrid",
-            "la_liga_real_sociedad",
-            "la_liga_real_valladolid"
+            "real_betis",
+            "real_madrid",
+            "real_sociedad",
+            "real_valladolid"
         ],
-        "correctAnswer": "la_liga_real_betis"
+        "correctAnswer": "real_betis"
     },
     {
         "flagImage": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/800px-Real_Madrid_CF.svg.png",
         "thumbnailImage": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/160px-Real_Madrid_CF.svg.png",
         "choices": [
-            "la_liga_real_madrid",
-            "la_liga_real_sociedad",
-            "la_liga_real_valladolid",
-            "la_liga_sevilla"
+            "real_madrid",
+            "real_sociedad",
+            "real_valladolid",
+            "sevilla"
         ],
-        "correctAnswer": "la_liga_real_madrid"
+        "correctAnswer": "real_madrid"
     },
     {
         "flagImage": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Real_Sociedad_logo.svg/800px-Real_Sociedad_logo.svg.png",
         "thumbnailImage": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Real_Sociedad_logo.svg/175px-Real_Sociedad_logo.svg.png",
         "choices": [
-            "la_liga_real_sociedad",
-            "la_liga_real_valladolid",
-            "la_liga_sevilla",
-            "la_liga_real_madrid"
+            "real_sociedad",
+            "real_valladolid",
+            "sevilla",
+            "real_madrid"
         ],
-        "correctAnswer": "la_liga_real_sociedad"
+        "correctAnswer": "real_sociedad"
     },
     {
         "flagImage": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/Real_Valladolid_CF_crest.svg/800px-Real_Valladolid_CF_crest.svg.png",
         "thumbnailImage": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/Real_Valladolid_CF_crest.svg/195px-Real_Valladolid_CF_crest.svg.png",
         "choices": [
-            "la_liga_real_valladolid",
-            "la_liga_sevilla",
-            "la_liga_real_betis",
-            "la_liga_leganes"
+            "real_valladolid",
+            "sevilla",
+            "real_betis",
+            "leganes"
         ],
-        "correctAnswer": "la_liga_real_valladolid"
+        "correctAnswer": "real_valladolid"
     },
     {
         "flagImage": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Sevilla_FC_logo.svg/800px-Sevilla_FC_logo.svg.png",
         "thumbnailImage": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Sevilla_FC_logo.svg/155px-Sevilla_FC_logo.svg.png",
         "choices": [
-            "la_liga_real_valladolid",
-            "la_liga_sevilla",
-            "la_liga_las_palmas",
-            "la_liga_real_betis"
+            "real_valladolid",
+            "sevilla",
+            "las_palmas",
+            "real_betis"
         ],
-        "correctAnswer": "la_liga_sevilla"
+        "correctAnswer": "sevilla"
     },
     {
         "flagImage": "https://upload.wikimedia.org/wikipedia/en/thumb/2/20/UD_Las_Palmas_logo.svg/800px-UD_Las_Palmas_logo.svg.png",
         "thumbnailImage": "https://upload.wikimedia.org/wikipedia/en/thumb/2/20/UD_Las_Palmas_logo.svg/125px-UD_Las_Palmas_logo.svg.png",
         "choices": [
-            "la_liga_real_valladolid",
-            "la_liga_sevilla",
-            "la_liga_las_palmas",
-            "la_liga_valencia"
+            "real_valladolid",
+            "sevilla",
+            "las_palmas",
+            "valencia"
         ],
-        "correctAnswer": "la_liga_las_palmas"
+        "correctAnswer": "las_palmas"
     },
     {
         "flagImage": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/Valenciacf.svg/800px-Valenciacf.svg.png",
         "thumbnailImage": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/Valenciacf.svg/176px-Valenciacf.svg.png",
         "choices": [
-            "la_liga_real_valladolid",
-            "la_liga_sevilla",
-            "la_liga_las_palmas",
-            "la_liga_valencia"
+            "real_valladolid",
+            "sevilla",
+            "las_palmas",
+            "valencia"
         ],
-        "correctAnswer": "la_liga_valencia"
+        "correctAnswer": "valencia"
     },
     {
         "flagImage": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Villarreal_CF_logo-en.svg/800px-Villarreal_CF_logo-en.svg.png",
         "thumbnailImage": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Villarreal_CF_logo-en.svg/170px-Villarreal_CF_logo-en.svg.png",
         "choices": [
-            "la_liga_villarreal",
-            "la_liga_sevilla",
-            "la_liga_las_palmas",
-            "la_liga_valencia"
+            "villarreal",
+            "sevilla",
+            "las_palmas",
+            "valencia"
         ],
-        "correctAnswer": "la_liga_villarreal"
+        "correctAnswer": "villarreal"
     }
 ]

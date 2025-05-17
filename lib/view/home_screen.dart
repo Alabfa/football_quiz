@@ -32,11 +32,11 @@ class HomeScreen extends StatelessWidget {
               child: GridView.count(
                 shrinkWrap: true,
                 crossAxisCount: 2,
-                mainAxisSpacing: 10,
-                crossAxisSpacing: 10,
+                mainAxisSpacing: 15,
+                crossAxisSpacing: 15,
                 childAspectRatio: 0.8,
                 padding:
-                    const EdgeInsets.symmetric(vertical: 10, horizontal: 10),
+                    const EdgeInsets.symmetric(vertical: 15, horizontal: 15),
                 children: [
                   Bounce(
                     onTap: () => Get.to(
@@ -60,6 +60,18 @@ class HomeScreen extends StatelessWidget {
                       AppAssets.laLigaLogo,
                       'LaLiga',
                       const Color(0xffff4b44),
+                    ),
+                  ),
+                  Bounce(
+                    onTap: () => Get.to(
+                      () => QuizScreen(),
+                      arguments: 'Serie A',
+                    ),
+                    child: buildCard(
+                      context,
+                      AppAssets.serieALogo,
+                      'Serie A',
+                      const Color(0xff0572FD),
                     ),
                   ),
                 ],
@@ -112,7 +124,7 @@ class HomeScreen extends StatelessWidget {
           Expanded(
             child: Image.asset(
               imgPath,
-              width: MediaQuery.of(context).size.width * 0.4,
+              width: MediaQuery.of(context).size.width * 0.35,
             ),
           ),
           const SizedBox(height: 5),

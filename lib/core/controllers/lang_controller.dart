@@ -11,18 +11,16 @@ class LangController extends GetxController {
 
   String generateFact(int index) {
     List<String> enFacts = [
-      "Real Madrid is the best club in the world",
       "Ref blew the whistle, Jude said, 'FUCK YOU!'",
       "The ball went so high, it joined the birds!",
-      "Watching Barca defend is like a comedy show!",
       "VAR: because who doesn’t love a good plot twist?",
+      "That pass was a gift… to the other team",
     ];
 
     List<String> arFacts = [
       "اعتبر اكو شي مكتوب هنا",
       "ميسي، لاعب يعرف شلون يكتب تاريخ كرة القدم بحركاته!",
       "شوتة رونالدو، قوة ودقة تخلي الكوول يسكت!",
-      "توتنهام يلعبون كأن الفوز مو ضمن أهدافهم!",
       "الـVAR شغله الوحيد: يخليك تحتفل وبعدين تندم!"
     ];
 
