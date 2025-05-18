@@ -48,6 +48,27 @@ class AppTools {
       "sevilla": l.sevilla,
       "valencia": l.valencia,
       "villarreal": l.villarreal,
+      //Serie A
+      "napoli": l.napoli,
+      "inter_milan": l.inter_milan,
+      "atalanta": l.atalanta,
+      "juventus": l.juventus,
+      "lazio": l.lazio,
+      "roma": l.roma,
+      "bologna": l.bologna,
+      "ac_milan": l.ac_milan,
+      "fiorentina": l.fiorentina,
+      "como": l.como,
+      "torino": l.torino,
+      "udinese": l.udinese,
+      "genoa": l.genoa,
+      "cagliari": l.cagliari,
+      "verona": l.verona,
+      "parma": l.parma,
+      "venezia": l.venezia,
+      "lecce": l.lecce,
+      "empoli": l.empoli,
+      "monza": l.monza,
     };
 
     return localizedStrings[clubName] ?? clubName;

@@ -7,4 +7,5 @@ class AppAssets {
   static const String premierLeagueData =
       'assets/data/premier_league_data.json';
   static const String laLigaData = 'assets/data/la_liga_data.json';
+  static const String serieAData = 'assets/data/serie_a_data.json';
 }

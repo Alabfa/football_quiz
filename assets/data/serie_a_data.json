@@ -1,0 +1,102 @@
+[
+  {
+    "flagImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/SSC_Napoli_2024_%28deep_blue_navy%29.svg/1024px-SSC_Napoli_2024_%28deep_blue_navy%29.svg.png",
+    "thumbnailImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/SSC_Napoli_2024_%28deep_blue_navy%29.svg/250px-SSC_Napoli_2024_%28deep_blue_navy%29.svg.png",
+    "correctAnswer": "napoli"
+  },
+  {
+    "flagImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/FC_Internazionale_Milano_2021.svg/1024px-FC_Internazionale_Milano_2021.svg.png",
+    "thumbnailImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/FC_Internazionale_Milano_2021.svg/250px-FC_Internazionale_Milano_2021.svg.png",
+    "correctAnswer": "inter_milan"
+  },
+  {
+    "flagImage": "https://upload.wikimedia.org/wikipedia/en/thumb/6/66/AtalantaBC.svg/800px-AtalantaBC.svg.png",
+    "thumbnailImage": "https://upload.wikimedia.org/wikipedia/en/thumb/6/66/AtalantaBC.svg/250px-AtalantaBC.svg.png",
+    "correctAnswer": "atalanta"
+  },
+  {
+    "flagImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Juventus_FC_-_logo_black_%28Italy%2C_2020%29.svg/800px-Juventus_FC_-_logo_black_%28Italy%2C_2020%29.svg.png",
+    "thumbnailImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Juventus_FC_-_logo_black_%28Italy%2C_2020%29.svg/125px-Juventus_FC_-_logo_black_%28Italy%2C_2020%29.svg.png",
+    "correctAnswer": "juventus"
+  },
+  {
+    "flagImage": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/S.S._Lazio_badge.svg/1920px-S.S._Lazio_badge.svg.png",
+    "thumbnailImage": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/S.S._Lazio_badge.svg/250px-S.S._Lazio_badge.svg.png",
+    "correctAnswer": "lazio"
+  },
+  {
+    "flagImage": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/AS_Roma_logo_%282017%29.svg/800px-AS_Roma_logo_%282017%29.svg.png",
+    "thumbnailImage": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/AS_Roma_logo_%282017%29.svg/250px-AS_Roma_logo_%282017%29.svg.png",
+    "correctAnswer": "roma"
+  },
+  {
+    "flagImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Bologna_F.C._1909_logo.svg/800px-Bologna_F.C._1909_logo.svg.png",
+    "thumbnailImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Bologna_F.C._1909_logo.svg/120px-Bologna_F.C._1909_logo.svg.png",
+    "correctAnswer": "bologna"
+  },
+  {
+    "flagImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/800px-Logo_of_AC_Milan.svg.png",
+    "thumbnailImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/250px-Logo_of_AC_Milan.svg.png",
+    "correctAnswer": "ac_milan"
+  },
+  {
+    "flagImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/ACF_Fiorentina_-_logo_%28Italy%2C_2022%29.svg/1024px-ACF_Fiorentina_-_logo_%28Italy%2C_2022%29.svg.png",
+    "thumbnailImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/ACF_Fiorentina_-_logo_%28Italy%2C_2022%29.svg/230px-ACF_Fiorentina_-_logo_%28Italy%2C_2022%29.svg.png",
+    "correctAnswer": "fiorentina"
+  },
+  {
+    "flagImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Logo_Como_1907_-_2019.svg/1024px-Logo_Como_1907_-_2019.svg.png",
+    "thumbnailImage": "https://commons.wikimedia.org/wiki/File:Logo_Como_1907_-_2019.svg",
+    "correctAnswer": "como"
+  },
+  {
+    "flagImage": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2e/Torino_FC_Logo.svg/800px-Torino_FC_Logo.svg.png",
+    "thumbnailImage": "https://en.wikipedia.org/wiki/File:Torino_FC_Logo.svg",
+    "correctAnswer": "torino"
+  },
+  {
+    "flagImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Udinese_Calcio_2010.svg/1024px-Udinese_Calcio_2010.svg.png",
+    "thumbnailImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Udinese_Calcio_2010.svg/250px-Udinese_Calcio_2010.svg.png",
+    "correctAnswer": "udinese"
+  },
+  {
+    "flagImage": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/Genoa_CFC_crest.svg/800px-Genoa_CFC_crest.svg.png",
+    "thumbnailImage": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/Genoa_CFC_crest.svg/140px-Genoa_CFC_crest.svg.png",
+    "correctAnswer": "genoa"
+  },
+  {
+    "flagImage": "https://upload.wikimedia.org/wikipedia/en/thumb/6/61/Cagliari_Calcio_1920.svg/800px-Cagliari_Calcio_1920.svg.png",
+    "thumbnailImage": "https://upload.wikimedia.org/wikipedia/en/thumb/6/61/Cagliari_Calcio_1920.svg/170px-Cagliari_Calcio_1920.svg.png",
+    "correctAnswer": "cagliari"
+  },
+  {
+    "flagImage": "https://upload.wikimedia.org/wikipedia/en/thumb/9/92/Hellas_Verona_FC_logo_%282020%29.svg/1024px-Hellas_Verona_FC_logo_%282020%29.svg.png",
+    "thumbnailImage": "https://upload.wikimedia.org/wikipedia/en/thumb/9/92/Hellas_Verona_FC_logo_%282020%29.svg/200px-Hellas_Verona_FC_logo_%282020%29.svg.png",
+    "correctAnswer": "verona"
+  },
+  {
+    "flagImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Logo_Parma_Calcio_1913_%28adozione_2016%29.svg/800px-Logo_Parma_Calcio_1913_%28adozione_2016%29.svg.png",
+    "thumbnailImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Logo_Parma_Calcio_1913_%28adozione_2016%29.svg/160px-Logo_Parma_Calcio_1913_%28adozione_2016%29.svg.png",
+    "correctAnswer": "parma"
+  },
+  {
+    "flagImage": "https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Venezia_FC_crest.svg/1280px-Venezia_FC_crest.svg.png",
+    "thumbnailImage": "https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Venezia_FC_crest.svg/250px-Venezia_FC_crest.svg.png",
+    "correctAnswer": "venezia"
+  },
+  {
+    "flagImage": "https://upload.wikimedia.org/wikipedia/en/thumb/2/23/US_Lecce_crest.svg/800px-US_Lecce_crest.svg.png",
+    "thumbnailImage": "https://upload.wikimedia.org/wikipedia/en/thumb/2/23/US_Lecce_crest.svg/250px-US_Lecce_crest.svg.png",
+    "correctAnswer": "lecce"
+  },
+  {
+    "flagImage": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/Empoli_FC_crest.svg/800px-Empoli_FC_crest.svg.png",
+    "thumbnailImage": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/Empoli_FC_crest.svg/250px-Empoli_FC_crest.svg.png",
+    "correctAnswer": "empoli"
+  },
+  {
+    "flagImage": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/AC_Monza_logo_%282021%29.svg/800px-AC_Monza_logo_%282021%29.svg.png",
+    "thumbnailImage": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/AC_Monza_logo_%282021%29.svg/250px-AC_Monza_logo_%282021%29.svg.png",
+    "correctAnswer": "monza"
+  }
+]

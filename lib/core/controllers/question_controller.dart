@@ -71,8 +71,9 @@ class QuestionController extends GetxController {
       jsonString = await rootBundle.loadString(AppAssets.premierLeagueData);
     } else if (league == 'LaLiga') {
       jsonString = await rootBundle.loadString(AppAssets.laLigaData);
+    } else if (league == 'Serie A') {
+      jsonString = await rootBundle.loadString(AppAssets.serieAData);
     } else {
-      // Fallback or error handling if needed.
       jsonString = await rootBundle.loadString(AppAssets.laLigaData);
     }
 
@@ -87,7 +88,8 @@ class QuestionController extends GetxController {
 
     // Create the Question objects using the factory that builds dynamic choices.
     questions = jsonData
-        .map((data) => Question.fromMap(data as Map<String, dynamic>, allTeamNames))
+        .map((data) =>
+            Question.fromMap(data as Map<String, dynamic>, allTeamNames))
         .toList();
 
     // Optional: Shuffle the question order.
