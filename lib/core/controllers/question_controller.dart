@@ -16,7 +16,6 @@ class QuestionController extends GetxController {
   var correctAnswers = 0.obs;
   var selectedAnswer = ''.obs;
   var isAnswerChecked = false.obs;
-
   var isLoadingData = true.obs;
 
   void checkAnswer(String userAnswer) {
@@ -67,25 +66,34 @@ class QuestionController extends GetxController {
     super.onInit();
 
     league = Get.arguments;
+    String jsonString;
     if (league == 'Premier League') {
-      String jsonString = await rootBundle.loadString(
-        AppAssets.premierLeagueData,
-      );
-      List<dynamic> jsonData = json.decode(jsonString);
-      questions = jsonData.map((data) => Question.fromMap(data)).toList();
+      jsonString = await rootBundle.loadString(AppAssets.premierLeagueData);
     } else if (league == 'LaLiga') {
-      String jsonString = await rootBundle.loadString(
-        AppAssets.laLigaData,
-      );
-      List<dynamic> jsonData = json.decode(jsonString);
-      questions = jsonData.map((data) => Question.fromMap(data)).toList();
+      jsonString = await rootBundle.loadString(AppAssets.laLigaData);
+    } else {
+      // Fallback or error handling if needed.
+      jsonString = await rootBundle.loadString(AppAssets.laLigaData);
     }
 
+    final List<dynamic> jsonData = json.decode(jsonString);
+
+    // Extract all unique team names based on the correctAnswer field.
+    // This will be the pool for creating dynamic choices.
+    final allTeamNames = jsonData
+        .map<String>((item) => item['correctAnswer'].toString())
+        .toSet()
+        .toList();
+
+    // Create the Question objects using the factory that builds dynamic choices.
+    questions = jsonData
+        .map((data) => Question.fromMap(data as Map<String, dynamic>, allTeamNames))
+        .toList();
+
+    // Optional: Shuffle the question order.
     questions.shuffle();
-    for (var question in questions) {
-      question.choices.shuffle();
-    }
 
+    // The choices are now generated dynamically in the factory. No need to shuffle again here.
     isLoadingData.value = false;
   }
 }
